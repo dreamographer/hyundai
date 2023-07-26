@@ -1,0 +1,34 @@
+.c-nav{
+    width: 100%;
+}
+.c-item{
+    width: 100%;
+}
+.c-btn1{
+    top: 65%;
+    left: 22%;
+    background-color: #002c5f;
+    color: white;
+    width: 140px;
+}
+.c-btn2{
+    top: 75%;
+    left: 22%;
+    background-color: #002c5f;
+    color: white;
+    width: 140px;
+}
+.btn:hover {
+    background-color:  #002c5f !important;
+    color: white;
+  }
+/* .c-control{
+    height: 100px;
+  } */
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  
