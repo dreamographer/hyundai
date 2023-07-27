@@ -64,8 +64,8 @@ body{
 .c-pointer:hover .c-img {
   opacity: 1;
 }
-.foot{
-  font-size: 2vh;
+.size{
+  font-size:2.5vw;
 }
 .foot ul {
   list-style-type: none;
