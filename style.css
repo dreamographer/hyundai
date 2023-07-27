@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .c-nav{
     width: 100%;
 }
@@ -16,7 +19,7 @@
     left: 22%;
     background-color: #002c5f;
     color: white;
-    width: 140px;
+    width: 130px;
 }
 .btn:hover {
     background-color:  #002c5f !important;
@@ -31,4 +34,70 @@
     color: black;
   }
 
+  .btn3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
   
+  }
+.c-sec{
+  height: 100px;
+  background: #002c5f;
+  color: white; 
+}
+.c-sec *{
+  font-size:18px;
+}
+.c-pointer{
+  cursor: pointer!important;
+}
+.c-img{
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  margin-left: 30px;
+
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.c-pointer:hover .c-img {
+  opacity: 1;
+}
+.foot ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Set to flex to create a horizontal list */
+}
+
+.foot li {
+  padding: 8px;
+  position: relative;
+}
+
+.foot li:not(:last-child):after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 50%;
+  width: 1px;
+  background-color: #000; /* You can adjust the line color here */
+}
+.foot1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Set to flex to create a horizontal list */
+}
+
+.foot1 li {
+  padding: 8px;
+  position: relative;
+}
+.bg-secondary{
+  background-color:#1c1b1b !important;
+  color: #899988;
+}
