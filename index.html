@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="title" content="hyundai clone">
-<meta name="description" content="clone of hyundai web site using html css and javascript with bootstrap">
-<meta name="keywords" content="hyundai,clone,bootstrap,css">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="author" content="ashwin kv">
+  <meta name="description" content="clone of hyundai web site using html css and javascript with bootstrap">
+  <meta name="keywords" content="hyundai,clone,bootstrap,css">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="author" content="ashwin kv">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hyundai-clone</title>
   <link rel="icon" href="https://www.hyundai.com/etc/designs/hyundai/in/en/favicon.ico">
@@ -306,8 +306,8 @@
         <h6>From Bean to cup</h6>
       </div>
       <div class="col-lg-3 col-10 col-md-5 c-pointer">
-        <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/namaste.jpg" alt="image" class="img-fluid"
-          style="object-fit: cover;">
+        <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/namaste.jpg" alt="image"
+          class="img-fluid" style="object-fit: cover;">
         <p class="mb-0">BRAND</p>
         <h6>From Bean to cup</h6>
       </div>
@@ -349,8 +349,8 @@
         <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
       </div>
       <div class="col-lg-3 col-10 col-md-5 c-pointer position-relative">
-        <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/namaste.jpg" alt="image" class="img-fluid"
-          style="object-fit: cover;">
+        <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/namaste.jpg" alt="image"
+          class="img-fluid" style="object-fit: cover;">
         <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
       </div>
       <div class="col-lg-3 col-10  col-md-5 c-pointer position-relative">
@@ -401,10 +401,10 @@
     <div class="row bg-secondary  pt-2 pb-5">
 
       <div class="col-md-2 ps-5 pt-3 ">
-        <img  src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/footer_logo_pc.png" alt="image">
+        <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/footer_logo_pc.png" alt="image">
       </div>
       <div class="col-md-7 col-2 foot  ms-lg-2 d-none d-md-block">
-        <ul >
+        <ul>
           <li>Worldwide</li>
           <li>Contact Us</li>
           <li>Legal Disclaimer</li>
@@ -415,7 +415,7 @@
         <!-- <p  style="font-size: 10px;">Copyright 2023 Hyundai Motor India. All Rights Reserved.</p> -->
       </div>
       <div class="col-md-7 col-2 foot size ms-lg-2 d-md-none">
-        <ul >
+        <ul>
           <li>Worldwide</li>
           <li>Contact Us</li>
           <li>Legal Disclaimer</li>
@@ -424,7 +424,8 @@
           <li>Dealer Application</li>
         </ul>
       </div>
-      <p  style="font-size: 10px;" class="col-md-7  text-center">©Copyright 2023 Hyundai Motor India. All Rights Reserved.</p>
+      <p style="font-size: 10px;" class="col-md-7  text-center">©Copyright 2023 Hyundai Motor India. All Rights
+        Reserved.</p>
       <div class="col-md-2 foot1">
         <ul>
           <li><i class="fab fa-facebook fa-sm"></i></li>
@@ -435,7 +436,7 @@
           <li><i class="fab fa-whatsapp fa-sm"></i> </li>
         </ul>
       </div>
-      
+
     </div>
     <div class="row sticky-bottom pt-4 pb-4 bg-primary justify-content-evenly text-white">
       <div class="col-2 ">
@@ -453,13 +454,13 @@
     </div>
 
 
-      
+
 
   </div>
   <script>
     //Get the button
     let mybutton = document.getElementById("btn-back-to-top");
-    const toTop =()=>window.scrollTo(0,0);
+    const toTop = () => window.scrollTo(0, 0);
     mybutton.addEventListener("click", toTop);
   </script>
   <script>
@@ -491,11 +492,11 @@
     });
 
     // Event listener for link clicks
-    var actionLinks = document.querySelectorAll('.action a');
-    actionLinks.forEach(function (link) {
-      link.addEventListener('click', function (e) {
+    const actionLinks = document.querySelectorAll('.action a');
+    actionLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
         e.preventDefault();
-        var slideIndex = this.getAttribute('data-slide');
+        const slideIndex = link.getAttribute('data-slide');
         goToSlide(slideIndex);
       });
     });
